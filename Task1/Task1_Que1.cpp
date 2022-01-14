@@ -1,3 +1,14 @@
+/*
+Approach :- Here we have to find the total no. of toffee he can buy,
+so its obvious that if he choose all toffee with min cost untill the total cost
+is reached
+So first we sort the given array using STL sort function
+then we traverse sorted array and find cummulative sum till the total is not surpassed
+and increase count of toffee one by one, and at last we get total toffee
+
+*/
+
+
 #include<bits/stdc++.h>
 using namespace std;
 

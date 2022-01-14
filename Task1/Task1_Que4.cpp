@@ -1,4 +1,13 @@
 //submitted by 103_virender
+
+/*
+
+We generate all prime number from 2 to N by Sieve of Eratosthenes 
+Then we traverse this array and check if (1 + currNumber + nextNumber) is prime Number
+by binary searching that sum in primes array, and if we find it then we increment the count
+At last we check if count>=x then we print YES else NO
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

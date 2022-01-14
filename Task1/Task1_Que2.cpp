@@ -1,3 +1,29 @@
+/*
+    In this we divide the problem in two case
+    case 1 : when Alice release button before Bob start, or when Bob release
+             before Alice could start, In this case ther is no vommon time,hence answer is 0
+
+            Pictorially: 
+
+            P   Q
+                     R    S
+
+    
+    case 2 : Other cases when their will be common time 
+             In that the common region will be btw whoever starts late and whoever ends first
+
+            Pictorially :
+
+            P             Q
+                   R              S
+
+            here common time is btw R&Q (here R=lateStart of P and R)
+                                        (and Q=earlyRelease of Q and S)
+
+
+    SO we divide the problem in above two cases
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

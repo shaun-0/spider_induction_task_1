@@ -1,4 +1,12 @@
 // Submitted by Virender_103
+
+
+/*
+    Here for each room we find that given Nj can fit how many row completely
+    Now since each row has 1,2,3,4.... boxes the total boxes upto M'th complete row will have
+    TotalBox = M(M+1)/2 hence we find M as TotalBox is given by Quadratic formula
+
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
